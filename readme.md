@@ -16,12 +16,12 @@ THANKS HACK CLUB\!
 
 Bill of Materials (BOM):
 
-* 1	Microcontroller Module RP2040	U1	1	Seeed Studio XIAO RP2040 (SAME AS HACKPAD)
-* 2	Temp/Humidity Sensor Module	U2	1	DHT22 (AM2302)
-* 3	OLED Display I2C (128x32)	DS1	1	SSD1306 Module (SAME AS HACKPAD)
-* 4	Resistor Pull-up 4.7k Ohm THT	R1	1	Generic 4.7k Ohm
-* 5	Custom PCB 2-Layer	N/A	1	Custom Fabrication
-* 6	M2 Mounting Hardware Set	N/A	4	M2 Screws and Nuts
+* 	Microcontroller Module RP2040	U1	1	Seeed Studio XIAO RP2040 (SAME AS HACKPAD)
+* 	Temp/Humidity Sensor Module	U2	1	DHT22 (AM2302)
+* 	OLED Display I2C (128x32)	DS1	1	SSD1306 Module (SAME AS HACKPAD)
+* 	Resistor Pull-up 4.7k Ohm THT	R1	1	Generic 4.7k Ohm
+* 	Custom PCB 2-Layer	N/A	1	Custom Fabrication
+* 	M2 Mounting Hardware Set	N/A	4	M2 Screws and Nuts
 * \* A BOM CSV is also included but doesn't account for things outside the PCB
 
 ## **Wiring and Schematic**
