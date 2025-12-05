@@ -4,7 +4,7 @@ A Simple Humidity and Temperature sensor and display using the DHT22 TEMP/HUM se
 
 ## **Inspiration**
 
-I wanted to create a highly compact and portable stand-alone environmental monitor that could provide accurate temperature and humidity readings without needing a host computer. I utilized the powerful yet tiny Seeed XIAO RP2040 for its small footprint and native CircuitPython support which made integration with the SSD1306 OLED and DHT22 sensor straightforward.
+I wanted to create a highly compact and portable standalone environmental monitor that could provide accurate temperature and humidity readings without needing a host computer. I used the Seeed XIAO RP2040 for its small footprint and native CircuitPython support which made integration with the SSD1306 OLED and DHT22 sensor straightforward.
 
 ## **Challenges**
 
@@ -26,7 +26,7 @@ Bill of Materials (BOM):
 
 ## **Wiring and Schematic**
 
-The circuit uses the I2C interface for the OLED and a single digital pin for the DHT22 sensor. The 4.7k pull-up resistor R1 is mandatory for reliable DHT22 operation.
+The circuit uses the IIC interface for the OLED and a single digital pin for the DHT22 sensor. You can't drop the 4.7k Pull Up resistor as you need it to run the DHT22.
 
 ## **Visuals**
 <img width="1245" height="955" alt="Screenshot 2025-12-02 210005" src="https://github.com/user-attachments/assets/4dc7df91-602e-4da3-a5de-aba487a7f845" />
@@ -46,15 +46,14 @@ The circuit uses the I2C interface for the OLED and a single digital pin for the
 
 ## **Firmware Setup (CircuitPython)**
 
-The project runs using the CircuitPython interpreter. The main script reads data performs the conversion and updates the display every three seconds.
-
+The project runs using CircuitPython.
 ### **Code (code.py)**
 
-The core functionality includes Celsius to Fahrenheit conversion using the formula F \= (C \* 1.8) \+ 32\.
+I also included Celsius to Fahrenheit conversion.
 
 ### **Required Libraries**
 
-The following Adafruit CircuitPython libraries must be copied into the **lib** folder on the CIRCUITPY drive for the code to run:
+The following Adafruit CircuitPython libraries must be copied into the **lib** folder on the CIRCUITPY drive for the code to run, these are included in the provided ZIP in Firmware:
 
 * adafruit\_dht  
 * adafruit\_ssd1306  
@@ -63,9 +62,7 @@ The following Adafruit CircuitPython libraries must be copied into the **lib** f
 
 ## **PCB and Mechanical Notes**
 
-* Layout: The design uses a two-layer PCB with all traces manually routed without a full ground plane.  
-* Resistor: The 4.7k pull-up resistor R1 is placed immediately adjacent to the DHT22 footprint to reduce noise.  
-* Mounting: The PCB uses 2.2mm clearance holes for M2 screws. The corresponding case holes should be 2.4mm for easy assembly tolerance.  
+* Layout: The design uses a two-layer PCB with all traces manually routed.  
 * DHT22 Placement: The DHT22 sensor is mounted vertically near the board edge and requires the mesh face to be exposed to ambient air for accurate readings.
 
 ## **Getting Started**
