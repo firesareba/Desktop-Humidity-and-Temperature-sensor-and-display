@@ -1,5 +1,6 @@
-Id,Designator,Footprint,Quantity,Designation,Supplier and ref
-1,U3,DHT22_Temperature_Humidity,1,~,
-2,U2,SSD1306-0.91-OLED-4pin-128x32,1,~,
-3,U1,XIAO-RP2040-DIP,1,XIAO-RP2040-DIP,
-4,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,4.7k,
+Id,Designator,Footprint,Quantity,Link,Price,
+1,U3,DHT22_Temperature_Humidity,1,https://www.aliexpress.us/item/3256810097495479.html?spm=a2g0o.cart.0.0.7b2f38daLoMOR1&mp=1&pdp_npi=5%40dis%21USD%21USD%203.45%21USD%201.99%21%21USD%201.99%21%21%21%402103123917649589668664735e58c8%2112000051781867490%21ct%21US%213031952535%21%211%210&gatewayAdapt=glo2usa,$1.99,
+2,U2,SSD1306-0.91-OLED-4pin-128x32,1,https://www.aliexpress.us/item/3256806165075447.html?spm=a2g0o.cart.0.0.7b2f38daLoMOR1&mp=1&pdp_npi=5%40dis%21USD%21USD%205.22%21USD%205.22%21%21USD%205.22%21%21%21%402103123917649589668664735e58c8%2112000046260541813%21ct%21US%213031952535%21%211%210&gatewayAdapt=glo2usa,$5.22,
+3,U1,XIAO-RP2040-DIP,1,https://www.aliexpress.us/item/3256803497572374.html?spm=a2g0o.cart.0.0.7b2f38daLoMOR1&mp=1&pdp_npi=5%40dis%21USD%21USD%208.70%21USD%206.52%21%21USD%206.52%21%21%21%402103123917649589668664735e58c8%2112000046085310555%21ct%21US%213031952535%21%211%210&pdp_ext_f=%7B%22cart2PdpParams%22%3A%7B%22pdpBusinessMode%22%3A%22retail%22%7D%7D&gatewayAdapt=glo2usa,$6.52,
+4,R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal4,7k,1,https://www.aliexpress.us/item/3256808490939217.html?spm=a2g0o.cart.0.0.7b2f38daLoMOR1&mp=1&pdp_npi=5%40dis%21USD%21USD%202.16%21USD%202.16%21%21USD%202.16%21%21%21%402103123917649589668664735e58c8%2112000046202387964%21ct%21US%213031952535%21%211%210&gatewayAdapt=glo2usa,$1.94,
+5,N/A,M2 Mounting Hardware Set N/A 4 M2 Screws and Nuts,1 Set,https://www.aliexpress.us/item/3256806973435795.html?spm=a2g0o.productlist.main.2.76db4606oUQ3UL&algo_pvid=0341b1cd-b025-4122-beb1-a285ca46d764&algo_exp_id=0341b1cd-b025-4122-beb1-a285ca46d764-1&pdp_ext_f=%7B%22order%22%3A%223558%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%215.19%211.99%21%21%215.19%211.99%21%4021032f3717649599987684032e59da%2112000039655872513%21sea%21US%213031952535%21X%211%210%21n_tag%3A-29919%3Bd%3Ae6b47bf9%3Bm03_new_user%3A-29895%3BpisId%3A5000000191721587&curPageLogUid=WGOtix9hxv8g&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005007159750547%7C_p_origin_prod%3A,$1.99,
